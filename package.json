@@ -4,15 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:dev": "ts-node-dev --transpiler sucrase/ts-node-plugin --respawn --transpile-only src/main.ts"
+    "start:dev": "ts-node-dev --transpiler sucrase/ts-node-plugin --respawn --transpile-only src/main.ts",
+    "abstract-factory:get-info-of-product": "npx tsx src/abstract-factory/get-info-of-product/sample.ts",
+    "bridge:exporter": "npx tsx src/bridge/exporter/sample.ts",
+    "composite:travel": "npx tsx src/composite/travel/sample.ts",
+    "facade:international-sales-calculator": "npx tsx src/facade/international-sales-calculator/sample.ts",
+    "factory-method:deadlines-of-installment": "npx tsx src/factory-method/deadlines-of-installment/sample.ts",
+    "sinleton:logger": "npx tsx src/sinleton/logger/sample.ts",
+    "state:apply-discount": "npx tsx src/state/apply-discount/sample.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@faker-js/faker": "^7.6.0",
-    "sucrase": "^3.29.0",
-    "ts-node-dev": "2.0.0",
     "typescript": "^4.9.4"
   },
   "dependencies": {
