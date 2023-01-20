@@ -8,6 +8,7 @@
     "abstract-factory:get-info-of-product": "npx tsx src/abstract-factory/get-info-of-product/sample.ts",
     "bridge:exporter": "npx tsx src/bridge/exporter/sample.ts",
     "composite:travel": "npx tsx src/composite/travel/sample.ts",
+    "decorator:sending-message": "npx tsx src/decorator/sending-message/sample.ts",
     "facade:international-sales-calculator": "npx tsx src/facade/international-sales-calculator/sample.ts",
     "factory-method:deadlines-of-installment": "npx tsx src/factory-method/deadlines-of-installment/sample.ts",
     "sinleton:logger": "npx tsx src/sinleton/logger/sample.ts",
