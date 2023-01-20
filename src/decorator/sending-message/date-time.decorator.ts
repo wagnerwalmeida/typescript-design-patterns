@@ -1,6 +1,6 @@
-import { LogExceptionDecorator } from './log-exception.decorator'
+import { BaseDecorator } from './base.decorator'
 
-export class DateTimeExceptionDecorator extends LogExceptionDecorator {
+export class DateTimeDecorator extends BaseDecorator {
   getExceptionData(): string {
     const exceptionData = super.getExceptionData()
     const dateTime = new Date().toLocaleString()

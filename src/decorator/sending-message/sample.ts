@@ -1,13 +1,13 @@
-import { DateTimeExceptionDecorator } from './date-time-exception.decorator'
-import { LogExceptionDecorator } from './log-exception.component-implementation'
-import { ILogException } from './log-exception.component-interface'
-import { VersionExceptionDecorator } from './version-exception.decorator'
+import { DateTimeDecorator } from './date-time.decorator'
+import { LogException } from './log-exception.component'
+import { ILogException } from './log-exception.interface'
+import { VersionDecorator } from './version.decorator'
 
 process.on('uncaughtException', function (err) {
-  let logException: ILogException = new LogExceptionDecorator(err)
+  let logException: ILogException = new LogException(err)
 
-  logException = new DateTimeExceptionDecorator(logException)
-  logException = new VersionExceptionDecorator(logException)
+  logException = new DateTimeDecorator(logException)
+  logException = new VersionDecorator(logException)
 
   console.log(logException.getExceptionData())
 })
