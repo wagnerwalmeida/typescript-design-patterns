@@ -1,53 +1,33 @@
 # Design Patterns desenvolvidos com Typescript
 
-## Criacionais
+## Criacionais 3/5
 
-- [ ] Abstract Factory
-
+- [x] Abstract Factory
 - [ ] Builder
-
-- [ ] Factory Method
-
+- [x] Factory Method
 - [ ] Prototype
+- [x] Singleton
 
-- [ ] Singleton
-
-## Estruturais
+## Estruturais 3/7
 
 - [ ] Adapter
-
-- [ ] Bridg
-
-- [ ] Composite
-
+- [x] Bridge
+- [x] Composite
 - [ ] Decorator
-
-- [ ] Façade
-
+- [x] Facade
 - [ ] Flyweight
-
 - [ ] Proxy
 
-## Comportamentais
+## Comportamentais 1/11
 
 - [ ] Chain of Responsibility
-
 - [ ] Command
-
 - [ ] Interprete
-
 - [ ] Iterator
-
 - [ ] Mediator
-
 - [ ] Mement
-
 - [ ] Observer
-
-- [ ] State
-
+- [x] State
 - [ ] Strategy
-
 - [ ] Template Method
-
 - [ ] Visitor
