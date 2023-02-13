@@ -1,6 +1,6 @@
 # Design Patterns desenvolvidos com Typescript
 
-## Criacionais 3/5
+## Criacionais
 
 - [x] Abstract Factory
 - [ ] Builder
@@ -8,26 +8,26 @@
 - [ ] Prototype
 - [x] Singleton
 
-## Estruturais 3/7
+## Estruturais
 
 - [ ] Adapter
 - [x] Bridge
 - [x] Composite
-- [ ] Decorator
+- [x] Decorator
 - [x] Facade
 - [ ] Flyweight
 - [ ] Proxy
 
-## Comportamentais 1/11
+## Comportamentais
 
-- [ ] Chain of Responsibility
+- [x] Chain of Responsibility
 - [ ] Command
-- [ ] Interprete
+- [ ] Interpreter
 - [ ] Iterator
 - [ ] Mediator
-- [ ] Mement
+- [ ] Memento
 - [ ] Observer
 - [x] State
 - [ ] Strategy
 - [ ] Template Method
-- [ ] Visitor
+- [x] Visitor

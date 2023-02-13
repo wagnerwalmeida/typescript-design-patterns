@@ -7,12 +7,14 @@
     "start:dev": "ts-node-dev --transpiler sucrase/ts-node-plugin --respawn --transpile-only src/main.ts",
     "abstract-factory:get-info-of-product": "npx tsx src/abstract-factory/get-info-of-product/sample.ts",
     "bridge:exporter": "npx tsx src/bridge/exporter/sample.ts",
+    "chain-of-responsibility:data-import": "npx tsx src/chain-of-responsibility/data-import/sample.ts",
     "composite:travel": "npx tsx src/composite/travel/sample.ts",
     "decorator:sending-message": "npx tsx src/decorator/sending-message/sample.ts",
     "facade:international-sales-calculator": "npx tsx src/facade/international-sales-calculator/sample.ts",
     "factory-method:deadlines-of-installment": "npx tsx src/factory-method/deadlines-of-installment/sample.ts",
     "sinleton:logger": "npx tsx src/sinleton/logger/sample.ts",
-    "state:apply-discount": "npx tsx src/state/apply-discount/sample.ts"
+    "state:apply-discount": "npx tsx src/state/apply-discount/sample.ts",
+    "visitor:rh-increase-salary-and-define-seniority": "npx tsx src/visitor/rh-increase-salary-and-define-seniority/sample.ts"
   },
   "keywords": [],
   "author": "",
@@ -23,6 +25,7 @@
   },
   "dependencies": {
     "@types/node": "^18.11.18",
-    "axios": "^1.2.2"
+    "axios": "^1.2.2",
+    "fast-xml-parser": "^4.0.14"
   }
 }
