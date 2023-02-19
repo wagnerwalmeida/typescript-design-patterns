@@ -26,7 +26,7 @@
 - [ ] Iterator
 - [ ] Mediator
 - [ ] Memento
-- [ ] Observer
+- [x] Observer
 - [x] State
 - [ ] Strategy
 - [ ] Template Method

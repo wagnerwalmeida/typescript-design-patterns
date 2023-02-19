@@ -14,7 +14,8 @@
     "factory-method:deadlines-of-installment": "npx tsx src/factory-method/deadlines-of-installment/sample.ts",
     "sinleton:logger": "npx tsx src/sinleton/logger/sample.ts",
     "state:apply-discount": "npx tsx src/state/apply-discount/sample.ts",
-    "visitor:rh-increase-salary-and-define-seniority": "npx tsx src/visitor/rh-increase-salary-and-define-seniority/sample.ts"
+    "visitor:rh-increase-salary-and-define-seniority": "npx tsx src/visitor/rh-increase-salary-and-define-seniority/sample.ts",
+    "observer:financial-releases": "npx tsx src/observer/financial-releases/sample.ts"
   },
   "keywords": [],
   "author": "",
