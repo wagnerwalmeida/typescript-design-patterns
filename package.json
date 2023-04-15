@@ -15,7 +15,8 @@
     "sinleton:logger": "npx tsx src/sinleton/logger/sample.ts",
     "state:apply-discount": "npx tsx src/state/apply-discount/sample.ts",
     "visitor:rh-increase-salary-and-define-seniority": "npx tsx src/visitor/rh-increase-salary-and-define-seniority/sample.ts",
-    "observer:financial-releases": "npx tsx src/observer/financial-releases/sample.ts"
+    "observer:financial-releases": "npx tsx src/observer/financial-releases/sample.ts",
+    "proxy:distance-calculator": "npx tsx src/proxy/distance-calculator/sample.ts"
   },
   "keywords": [],
   "author": "",
@@ -27,6 +28,7 @@
   "dependencies": {
     "@types/node": "^18.11.18",
     "axios": "^1.2.2",
+    "dotenv": "^16.0.3",
     "fast-xml-parser": "^4.0.14"
   }
 }

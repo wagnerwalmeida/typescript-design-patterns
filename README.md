@@ -16,7 +16,7 @@
 - [x] Decorator
 - [x] Facade
 - [ ] Flyweight
-- [ ] Proxy
+- [x] Proxy
 
 ## Comportamentais
 
