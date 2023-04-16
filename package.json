@@ -16,7 +16,8 @@
     "state:apply-discount": "npx tsx src/state/apply-discount/sample.ts",
     "visitor:rh-increase-salary-and-define-seniority": "npx tsx src/visitor/rh-increase-salary-and-define-seniority/sample.ts",
     "observer:financial-releases": "npx tsx src/observer/financial-releases/sample.ts",
-    "proxy:distance-calculator": "npx tsx src/proxy/distance-calculator/sample.ts"
+    "proxy:distance-calculator": "npx tsx src/proxy/distance-calculator/sample.ts",
+    "template-method:search-github": "npx tsx src/template-method/search-github/sample.ts"
   },
   "keywords": [],
   "author": "",

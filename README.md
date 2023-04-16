@@ -29,5 +29,5 @@
 - [x] Observer
 - [x] State
 - [ ] Strategy
-- [ ] Template Method
+- [x] Template Method
 - [x] Visitor
