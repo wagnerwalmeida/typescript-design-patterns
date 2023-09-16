@@ -8,8 +8,8 @@ const entity = new Entity()
 
 const processor = new Processor(entity)
 
-processor.appendCommand(new FirstCommand())
-processor.appendCommand(new SecondCommand())
-processor.appendCommand(new ThirdCommand())
-
-processor.executeCommands()
+processor
+  .appendCommand(new FirstCommand())
+  .appendCommand(new SecondCommand())
+  .appendCommand(new ThirdCommand())
+  .executeCommands()
