@@ -30,7 +30,8 @@
 
 - [x] Chain of Responsibility
     - Data Import
-- [ ] Command
+- [x] Command
+    - Separate Responsabilities
 - [ ] Interpreter
 - [ ] Iterator
 - [ ] Mediator

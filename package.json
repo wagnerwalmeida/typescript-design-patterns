@@ -17,7 +17,8 @@
     "visitor:rh-increase-salary-and-define-seniority": "npx tsx src/visitor/rh-increase-salary-and-define-seniority/sample.ts",
     "observer:financial-releases": "npx tsx src/observer/financial-releases/sample.ts",
     "proxy:distance-calculator": "npx tsx src/proxy/distance-calculator/sample.ts",
-    "template-method:search-github": "npx tsx src/template-method/search-github/sample.ts"
+    "template-method:search-github": "npx tsx src/template-method/search-github/sample.ts",
+    "command:separate-responsibilities": "npx tsx src/command/separate-responsibilities/sample.ts"
   },
   "keywords": [],
   "author": "",
@@ -29,6 +30,7 @@
   "dependencies": {
     "@types/node": "^18.11.18",
     "axios": "^1.2.2",
+    "canvas": "^2.11.2",
     "dotenv": "^16.0.3",
     "fast-xml-parser": "^4.0.14"
   }
