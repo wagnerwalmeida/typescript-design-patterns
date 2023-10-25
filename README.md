@@ -32,7 +32,8 @@
     - Data Import
 - [x] Command
     - Separate Responsabilities
-- [ ] Interpreter
+- [x] Interpreter
+    - Calculator
 - [ ] Iterator
 - [ ] Mediator
 - [ ] Memento
