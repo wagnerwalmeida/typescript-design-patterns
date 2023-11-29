@@ -1,2 +1,2 @@
-export * from './sample'
 export * from './singleton.implementation'
+export * from './sample'

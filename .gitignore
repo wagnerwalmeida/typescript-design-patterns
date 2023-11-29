@@ -3,3 +3,5 @@ package-lock.json
 node_modules
 output
 .env
+
+ANTIGO_README.md
